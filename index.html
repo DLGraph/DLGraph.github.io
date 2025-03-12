@@ -136,18 +136,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Accurate relative poses are crucial for consistent decision-making in multi-robot systems, which can be realized by Relative Localization (RL).
-        Existing research mainly focuses on determining relative poses through RL without thoroughly assessing the uncertainty in this process.
-        Although some methods have been proposed to increase the RL accuracy, like trajectory repetition, stopping criterion in these efforts are usually empirical since the ground truth of relative pose is unknown.
-        Thus, the lack of a RL accuracy evaluation metric can lead to inaccuracy and inefficiency.
-        To address this problem, this paper proposes a novel Dynamic Localization Graph (DLG) to both evaluate and enhance the RL accuracy.
-        First, without prior knowledge of the relative poses, we propose a method for obtaining the Metric of Relative Localization Accuracy (MRLA) based on the pose covariance.
-        Graduated non-convexity factor graph optimization is applied to calculate the transformation and update the pose covariance between the initial frames, followed by outlier rejection through hypothesis testing.
-        Then, the DLG is constructed by assigning the MRLA between robots as the weight of each edge, which can clearly illustrate the status of RL in the multi-robot system and offer guidance for subsequent localization enhancement.
-        The DLG is independent of the sensor system utilized.
-        A place recognition-based RL method combined with the DLG is given as a case study.
-        Simulations demonstrate that when the MRLA in the DLG reaches 0.98, the Absolute Pose Error is less than 0.1.
-        Furthermore, the effectiveness of the DLG is confirmed through indoor and outdoor experiments. 
+        The presentation video of the dynamic localization graph, including the results of simulation and real-world experiments.
       </h2>
     </div>
   </div>
@@ -162,7 +151,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Accurate relative poses are crucial for consistent decision-making in multi-robot systems, which can be realized by Relative Localization (RL).
+            Existing research mainly focuses on determining relative poses through RL without thoroughly assessing the uncertainty in this process.
+            Although some methods have been proposed to increase the RL accuracy, like trajectory repetition, stopping criterion in these efforts are usually empirical since the ground truth of relative pose is unknown.
+            Thus, the lack of a RL accuracy evaluation metric can lead to inaccuracy and inefficiency.
+            To address this problem, this paper proposes a novel Dynamic Localization Graph (DLG) to both evaluate and enhance the RL accuracy.
+            First, without prior knowledge of the relative poses, we propose a method for obtaining the Metric of Relative Localization Accuracy (MRLA) based on the pose covariance.
+            Graduated non-convexity factor graph optimization is applied to calculate the transformation and update the pose covariance between the initial frames, followed by outlier rejection through hypothesis testing.
+            Then, the DLG is constructed by assigning the MRLA between robots as the weight of each edge, which can clearly illustrate the status of RL in the multi-robot system and offer guidance for subsequent localization enhancement.
+            The DLG is independent of the sensor system utilized.
+            A place recognition-based RL method combined with the DLG is given as a case study.
+            Simulations demonstrate that when the MRLA in the DLG reaches 0.98, the Absolute Pose Error is less than 0.1.
+            Furthermore, the effectiveness of the DLG is confirmed through indoor and outdoor experiments. 
           </p>
         </div>
       </div>
